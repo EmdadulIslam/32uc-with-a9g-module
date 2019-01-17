@@ -10,7 +10,7 @@ long starttime, endtime ;
 String gps;
 void setup()
 {
-  Serial.begin(115200);
+  Serial.begin(9600);
   A7board.begin(115200);
 
   pinMode(4, OUTPUT);
